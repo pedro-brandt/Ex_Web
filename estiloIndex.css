@@ -1,0 +1,87 @@
+/* Estilos Gerais */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #fbc2eb 0%, #a6c1ee 100%);
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Estilo do Título Principal */
+h1 {
+    color: #ffffff;
+    font-size: 3em;
+    margin-top: 20px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilo do Subtítulo */
+h2 {
+    color: #ffffff;
+    font-size: 1.8em;
+    margin-top: 5px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo da Div com Exercícios */
+.exercises {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-top: 20px;
+    width: 80%;
+    max-width: 600px;
+    text-align: center;
+}
+
+/* Estilo da Lista */
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Estilo dos Itens da Lista */
+li {
+    margin: 15px 0;
+}
+
+/* Estilo dos Links */
+a {
+    text-decoration: none;
+    color: #5f27cd;
+    font-size: 1.2em;
+    font-weight: bold;
+    transition: color 0.3s, background-color 0.3s, box-shadow 0.3s;
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+/* Efeito de Hover nos Links */
+a:hover {
+    color: #ffffff;
+    background-color: #5f27cd;
+    box-shadow: 0px 4px 10px rgba(95, 39, 205, 0.3);
+}
+
+/* Responsividade */
+@media (max-width: 600px) {
+    h1 {
+        font-size: 2em;
+    }
+
+    h2 {
+        font-size: 1.5em;
+    }
+
+    a {
+        font-size: 1em;
+    }
+}
+
